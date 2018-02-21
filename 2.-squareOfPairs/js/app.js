@@ -4,9 +4,9 @@
 
 // declara las variables ES5
 
-var array = [2,4,6];
-// var array = [-3,2,-8,12,5];
-// var array = [1,2,3,4,5];
+var array = [2, 4, 6];
+// var array = [-3, 2, -8, 12, 5];
+// var array = [1, 2, 3, 4, 5];
 
 
 // declaración de la funcion 

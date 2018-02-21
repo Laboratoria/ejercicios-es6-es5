@@ -4,17 +4,24 @@
 
 // declaracion de las variables
 
-var [teamName, product] = [
-  'formacion', ['Amalia', 'Karla', 'Silvana', 'Manu', 'Jonh', 'Mike'],
+var [teachersTeam, members] = [
+  'formacion',
+     ['Amalia',
+      'Karla', 
+      'Silvana', 
+      'Manu', 
+      'Jonh',
+      'Mike'
+    ],
 ];
 
-var formatTeamMessage = function (teamName, people) {
-  var message = 'Hay ' + people.length + " " + 'personas en el equipo de' + " " + teamName + "\n" + "Ellos son" + " " + people.join(", ") + ".";
+var formatTeamMessage = function (teachersTeam, members) {
+  var message = 'Hay ' + members.length + " " + 'personas en el equipo de' + " " + teachersTeam + "\n" + "Ellos son" + " " + members.join(", ") + ".";
   console.log(message)
   return message;
 };  
 
-formatTeamMessage(teamName, product);
+formatTeamMessage(teachersTeam, members);
 
 // Ahora comenta todo el código anterior y escribelo en ES6
 
