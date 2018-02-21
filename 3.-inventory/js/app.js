@@ -1,5 +1,7 @@
-// En este ejercicio te ayudaremos con la solucion de ES5, solo tendras que pasarlo a ES6
+// En este ejercicio te ayudaremos con la
+// solucion de ES5, solo tendras que pasarlo a ES6
 
+```javascript
 const inventory = [
   { name: "Inka Cola", category: "beverage", stock: "10" },
   { name: "Cusqueña", category: "beverage", stock: "15" },
@@ -14,10 +16,11 @@ const inventory = [
   { name: "Arándonos", category: "fruit", stock: "19" },
   { name: "Ciruela", category: "fruit", stock: "8" }
 ];
+```;
 
-var totalByCategory = function (inventory, category) {
+var totalByCategory = function(inventory, category) {
   var filterCategory = function filterCategory(prod) {
-    var totalProd =  prod.category === category;
+    var totalProd = prod.category === category;
     return totalProd;
   };
   var sumInventory = function sumInventory(prodAnterior, prodActual) {
@@ -31,6 +34,4 @@ var totalByCategory = function (inventory, category) {
 
 totalByCategory(inventory, "beverage");
 
-
 // Comenta todo el código de arriba (ecepto la const inventory) y pasa el código a ES6
-
