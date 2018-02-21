@@ -15,9 +15,9 @@ const inventory = [
   { name: "Ciruela", category: "fruit", stock: "8" }
 ];
 
-var totalByCategory = function (inventory, category) {
+var totalByCategory = function(inventory, category) {
   var filterCategory = function filterCategory(prod) {
-    var totalProd =  prod.category === category;
+    var totalProd = prod.category === category;
     return totalProd;
   };
   var sumInventory = function sumInventory(prodAnterior, prodActual) {
